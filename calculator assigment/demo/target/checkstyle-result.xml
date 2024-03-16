@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="F:\calculator assigment\demo\src\main\java\com\example\Calculator.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;add&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;add&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="5" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="5" column="23" severity="error" message="Parameter numbers should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;subtract&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;subtract&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="13" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="13" column="28" severity="error" message="Parameter numbers should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="21" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;multiply&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;multiply&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="21" column="28" severity="error" message="Parameter numbers should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="5" severity="error" message="Class &apos;Calculator&apos; looks like designed for extension (can be subclassed), but the method &apos;divide&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Calculator&apos; final or making the method &apos;divide&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" column="26" severity="error" message="Parameter numbers should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" severity="error" message="Line is longer than 80 characters (found 83)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>
